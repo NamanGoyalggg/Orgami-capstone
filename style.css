@@ -1,0 +1,90 @@
+h1 {
+    color: blue;
+    font-family: monospace;
+}
+h2 {
+   color: rgb(123, 255, 0); 
+}
+h3 {
+color: cornflowerblue;
+}
+h1 {
+    background-color: rgba(9, 12, 14, 0.726);
+}
+h2 {
+    background-color: rgba(209, 28, 73, 0.726);
+}
+h3 {
+    background-color: rgba(43, 209, 28, 0.726);
+}
+body {
+    background-color: rgb(96, 91, 105);
+    text-decoration: darkgrey;
+    text-shadow: darkgrey;
+    text-size-adjust: 10;
+}
+text {
+    color: rgb(248, 242, 242);
+}
+div *{
+    border: blue;
+}
+h1 {
+    color: white;
+    padding-left: 30px;
+    
+}
+
+/* * {
+    border: solid;
+} */
+.header *{
+    border: solid;
+}
+.menu{
+    margin-right: 100px;
+}
+.menu a{
+    margin-left: 20px;
+}
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+.item img{
+    position:relative;
+    opacity: 0.5;
+}
+.item p{
+    position: relative;
+}
+.item:hover img{
+opacity: 1;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+a:link{
+    color: pink;
+}
+a:visited{
+    color: yellow;
+}
